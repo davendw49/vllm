@@ -117,6 +117,7 @@ _TEXT_GENERATION_MODELS = {
     # [Encoder-decoder]
     "BartModel": ("bart", "BartForConditionalGeneration"),
     "BartForConditionalGeneration": ("bart", "BartForConditionalGeneration"),
+    "PLMForCausalLM": ("plm", "PLMForCausalLM"),
 }
 
 _EMBEDDING_MODELS = {
